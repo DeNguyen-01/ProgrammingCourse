@@ -1,0 +1,20 @@
+What is an attribute in HTML, and why is it used?
+Where are attributes placed in an HTML element?
+What is the purpose of the href attribute in the <a> tag?
+How do you use the src and alt attributes in an <img> tag?
+What does the width and height attribute do in an image element?
+What is the purpose of the style attribute, and how is it used?
+How does the title attribute work in HTML?
+What is the lang attribute, and where is it used?
+How do you specify an inline CSS style using attributes?
+What does the target="_blank" attribute do in an anchor (<a>) tag?
+What is the id attribute used for in HTML?
+How does the class attribute help in styling elements?
+What is the difference between the id and class attributes?
+How do boolean attributes like disabled and checked work?
+What is the purpose of the placeholder attribute in input elements?
+What does the readonly attribute do in an input field?
+How do you use the required attribute in form elements?
+What is the data-* attribute, and why is it useful?
+How can you set a default value in an input field using attributes?
+What does the autocomplete attribute do in form inputs?

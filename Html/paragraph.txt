@@ -1,0 +1,13 @@
+What is the purpose of the <p> tag in HTML?
+How do you add a line break inside a paragraph using the <br> tag?
+What type of element is the <p> tag (block-level or inline)?
+How do you change the alignment of the text in a paragraph?
+Can you nest a <p> tag inside another <p> tag? Why or why not?
+How would you write a paragraph that contains a line break using the <br> tag?
+What happens when you use multiple <p> tags in your HTML document?
+What is the purpose of the <hr> tag in HTML?
+What is the difference between the <br> and <hr> tags in HTML?
+How would you use the <br> tag in HTML?
+What does the <pre> tag do in HTML?
+How does the <pre> tag differ from a normal paragraph tag?
+Can you use the <br>, <hr>, or <pre> tags inside a <p> tag? Why or why not?

@@ -1,0 +1,20 @@
+What is the purpose of the style attribute in HTML?
+How do you change the text color using inline CSS in HTML?
+Which CSS property is used to change the background color of an element?
+How can you change the font size of a paragraph in HTML?
+What is the difference between the color and background-color properties?
+How do you make text bold using CSS inside the style attribute?
+How can you change the font family of text in an HTML element?
+What is the purpose of the text-align property?
+Which values can the text-align property have?
+How do you underline text using CSS in HTML?
+What does the font-style property control?
+How do you apply multiple styles to a single HTML element?
+What is the difference between using inline CSS and an external CSS file?
+What is the default text alignment for a <p> tag?
+How do you make text italic using CSS?
+Can you use the style attribute on all HTML elements? Why or why not?
+What is the difference between the text-decoration and font-style properties?
+How do you apply a background image to an HTML element using CSS?
+What is the purpose of the opacity property?
+How can you make text transparent using CSS?

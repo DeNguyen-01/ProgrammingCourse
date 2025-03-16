@@ -1,0 +1,13 @@
+What is the purpose of the <!DOCTYPE html> declaration in an HTML document?
+
+Which tags enclose the visible part of an HTML document?
+
+How are HTML headings defined, and which tag represents the most important heading?
+
+Which HTML tag is used to define a paragraph?
+
+How do you create a hyperlink in HTML, and which attribute specifies its destination?
+
+Which tag is used to embed an image in an HTML page, and what are the essential attributes required?
+
+Describe two methods to view the HTML source code or inspect elements of a webpage using a web browser.
