@@ -1,0 +1,122 @@
+Hyper Text Markup Language
+
+	SYNTAX																						DISPLAY
+<h1> to <h6>
+<p>
+<a href="https://www.w3schools.com">This is a link</a>
+<br> 
+style- : background-color,color,font-family,font-size,text-align
+lang
+title
+<h1 style="font-size:60px;">Heading 1</h1>
+<hr>																						    ---------------
+<pre>																						    
+Format: <b> <strong>, <i>(nn khac)<em>(nhan), <mark><small>,<del><ins>,<sub><sup>
+&lt; VALUE &gt;
+<blockquote>:indent
+<q>: "
+<abbr title="World Health Organization">WHO</abbr> : ... + title
+<address>Written</address> : italic + line break -+
+<cite>The Scream</cite> : italic
+<bdo dir="rtl">This</bdo>: right to left: sihT
+<!-- Write your comments here -->
+Color HTML: Tomato,Orange,DodgerBlue,MediumSeaGreen,Gray,SlateBlue,Violet,LightGray
+  +	RGB
+	rgb(red, green, blue): 0 -255
+		black = 0, white = 255
+		Gray when rgb(red, green, blue): all same value
+	rgba(Alpha-opacity:mờ đục): A 0.0(trong suot) - 1.0(ko trong suot)
+  + HEX
+	#rrggbb: 00 and ff
+		Red: #ff0000	Green: #00ff00
+		black, white
+  + HSL
+	hsl(hue: 0 - 360: 0 - red, 120 green, 360 blue
+		saturation: 0% gray, 100% full color
+		lightness: 0% black, 100% white)
+		gray => hue and saturation = 0
+	hsla(Alpha-opacity):  A 0.0(trong suot) - 1.0(ko trong suot)
+CSS: Cascading Style Sheets
+	p {
+	  color: red;
+	  font-family: courier;
+	  font-size: 160%;
+	  border: 2px solid powderblue;
+	  padding: 30px; // space between text and border
+	  margin: 50px   // space outside border
+	}
+Links
+	<a href="url">link text</a> (unvisited blue, visited purple ,action red)
+	_self:  chuyển sang example.com(không mở mới tab).
+			👉Đây là mặc định , ngay cả khi không ghi target="_self".
+	_blank: new tab, window
+	* Khi dung iframe
+	_parent: parent frame
+	_top: full body
+		  <body>
+			<iframe src="child.html" width="500" height="300"></iframe>
+			This is index
+		  </body>
+	Absolute URLs: full web address
+	relative URL: without the "https://www" part
+		Tien 1 cap: "index.html"
+		Lui 1 cap: "/"
+	HTML Links - Use an Image as a Link: <a><img></a>
+	Link to an Email Address: mailto inside href
+		<a href="mailto:someone@example.com">Send email</a>
+Pseudo-class: ":" chọn phần tử dựa trên vị trí đặc biệt. 
+HTML Links - Create Bookmarks: jump to specific page
+	id="value"
+	href="#value"
+IMAGE
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">.default pixels
+	recomment use style
+	set image at left or right: "style="float:right;"
+Image Maps
+	<map> with <area>
+	
+		<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+		<map name="workmap">
+		  <area shape="rect-ChuNhat/circle/poly-DaHinh/default" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+		</map>
+	rect: coords="34, 44, 270, 350"
+	circle:  coords="337, 300, 44"
+	poly: coords="140,121,181,116,204,160,204,222"
+	+ JavaScript: add click to <area>
+		 <area onclick="myFunction()">
+		<script>
+			function myFunction() {
+			  alert("You clicked the coffee cup!");
+			}
+		</script>
+Background Imagas
+	background-image: url('example_img_girl.jpg');
+	background-repeat: no-repeat; (if image is smaller)
+	//
+	background-attachment: fixed;(alway cover)
+	background-size: cover; (cover element)
+	or background-size: 100% 100%;(fit element)
+Picture Element
+	<picture> (flexibility follow view device)
+	  <source media="(min-width: 650px)" srcset="img_food.jpg">
+	  <img src="img_girl.jpg">
+	</picture>
+
+Favicon(image next title)
+	https://www.favicon.cc/
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+Table
+	<table>
+	<tr> table row
+	<th> table header - bold center
+	<td> table data
++ Border 
+	table, th, td {
+	  border: 1px solid black;
+	  border-collapse: collapse; (avoid double)
+	}
+	th, td {
+	  border-color: #96D4D4;
+	  border-radius: 10px;
+	  border-style: dotted;
+	}
