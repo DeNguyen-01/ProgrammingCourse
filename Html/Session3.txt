@@ -1,0 +1,76 @@
+Layout
+  4 way
+  CSS framework: float, clear
+  CSS float property
+  CSS flexbox
+  CSS grid
+Responsive
+  look good on all devices
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  +img never scale up to be larger than its original size
+  <img src="img_girl.jpg" style="max-width:100%;height:auto;">
+  <picture>
+  +text font-size:10vw(viewport-browser size width)
+    1vw = 1%viewport width
+  /* Use a media query to add a breakpoint at 800px: */
+  @media screen and (max-width: 800px) 
+  CSS/w3css/bootstrap
+Computercode: monospace font
+  <code> contain user input, computer code(not new line)
+  <kbd> dfine keyboard input, monospace font
+  <samp> output from computer, monospace font
+  <var> define variable, italic
+
+Semantics: describes it meaning (img, table, link)
+  <section> defines a section in a document (chapter, introduction, new item, contact information)
+  <article> specifies independent(forum ost, blog, user comment, product card, newspaper)
+  <header> container for introduction content(head element, logo or icon, author information)
+  <footer>: autho information, copyright, contact, sitemap,...
+  <nav> navigation link
+  <aside> content aside
+  <figure> self-contained content + <figcaption> place first or last child figure
+Style Guide
+  Recomment lowercase 
+  Use quote
+  Alway alt for imag
+  Space-less: src=""
+  Avoid long code line
+  Blank Line and indentation: readability add blank line, 
+  <title> required
+  Allway add <html> <body>
+  Can <head> omitted(brower add default)
+  Add lang <html lang="en-us">
+  Add viewport <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  Add <link rel="stylesheet" href="styles.css">
+  Load JS <script src="myscript.js">
+  lowercase file name
+  .html = .htm
+Entities
+  &lt: <
+  &gt: >
+  & @ ...
+Symbol: not present on keyboard
+  ->, <- ...
+Emojis: image, icon
+  <meta charset="UTF-8"> $#65 = A
+  Display character: &#value;
+Charsets
+  ASCII: 128 character
+  ANSI: Windows-1252
+  ...
+URL Encode(Uniform Resource Locator)
+  scheme://prefix.domain:port/path/filename
+    scheme - type of Internet service (http or https)
+    prefix - domain prefix (http is www)
+    domain - Internet domain name (w3schools.com)
+    port - port number at the host (http is 80)
+    path - path at the server (If omitted: root directory of the site)
+    filename - name of a document or resource
+  http	HyperText Transfer Protocol
+  https	Secure HyperText Transfer Protocol
+  ftp	File Transfer Protocol
+  IP(Internet Protocol) 192.68.20.50
+URL ENcoding 
+  convert non-ASCII to format over Internet
+  replace non-ASCII with "%" follow by hex digits
+  change space with "+" or "&"

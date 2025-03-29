@@ -1,0 +1,61 @@
+<canvas> element is used to draw graphics
+   use JavaScript to actually draw 
+
+<script>
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  // Line
+    ctx.moveTo(0, 0);
+    ctx.lineTo(200, 100);
+  // Circle
+    ctx.beginPath();
+    ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+  // Text
+    ctx.font = "30px Arial";
+    ctx.fillText/strokeText("Hello World", 10, 50);
+  // Draw Linear Gradient
+    // Create gradient
+    var grd = ctx.createLinearGradient(0, 0, 200, 0);
+    grd.addColorStop(0, "red");
+    grd.addColorStop(1, "white");
+
+    // Fill with gradient
+    ctx.fillStyle = grd;
+    ctx.fillRect(10, 10, 150, 80);
+  // Draw image
+    var img = document.getElementById("scream");
+    ctx.drawImage(img, 10, 10);
+  ctx.stroke();
+</script>
+
+SVG stands for Scalable Vector Graphics
+use language describes graphics
+<svg> element is a container for SVG graphics.
+
+  <svg width="100" height="100">
+    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+    <rect x="10" y="10" width="200" height="100" stroke="red" stroke-width="6" fill="blue" />
+    <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+      style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+    <polygon points="100,10 40,198 190,78 10,78 160,198"
+    style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+  </svg>
+
+Media
+<video>
+  <video width="320" height="240" controls autoplay muted>
+    <source src="movie.mp4" type="video/mp4">// alt video
+<audio>
+  <audio controls>
+    <source src="horse.ogg" type="audio/ogg">
+Plug-in: extend the standard functionality of the browser.
+  <object width="100%" height="500px" data="snippet.html"></object>
+  <embed src="audi.jpeg">
+Youtube
+  loop=0(default): play only once
+  loop=1 loop forever
+  controls=0: not display controls video
+  controls=1(defaut)
+  <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+  </iframe>

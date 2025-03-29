@@ -1,0 +1,50 @@
+<form action="/action_page.php" target="_blank" method="get">
+  novalidate, autocomplete
+  // form-handler, omitted action current page
+  <label for="fname">First name:</label><br>
+  // when click text label, toggle to input follow
+  <input type="text" id="fname" name="fname" value="John">
+
+GET: append URL name/value
+     length limited 2048 character
+POST: form data inside body of HTTP
+
+<select id="cars" name="cars" size="3" multiple>
+  <option value="volvo" selected>Volvo</option>
+
+<textarea name="message" rows="10" cols="30">
+  // define multi-line input field
+  The cat was playing in the garden.
+</textarea>
+
+ <fieldset>// group related data
+    <legend>Personalia:</legend>// caption 
+    
+ <input list="browsers" name="browser">// list
+  <datalist id="browsers">// specifies list pre-defined for input
+    <option value="Edge">
+
+<form action="/action_page.php"
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  <input type="range" id="a" name="a" value="50">
+  <output name="x" for="a b"></output>// same perform by script
+
+Input Attribute
+  value, readonly, disable, size = 20, maxlength, min
+  max, multiple, pattern, placeholder, required, step with digits,
+  autofocus
+
+Input Form Attribute
+  formaction: specifies URL, overrides action
+  <input type="submit" formaction="/action_page2.php" value="Submit as Admin">
+  
+  formenctype: specifies form-data Encode
+  <input type="submit" formenctype="multipart/form-data"
+  
+  formmethod
+  <input type="submit" formmethod="post" value="Submit using POST">
+
+  formtarget
+  <input type="submit" formtarget="_blank" value="Submit to a new window/tab">
+
+  formnovalidate, novalidate
