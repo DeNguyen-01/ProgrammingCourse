@@ -15,7 +15,7 @@ Format: <b> <strong>, <i>(nn khac)<em>(nhan), <mark><small>,<del><ins>,<sub><sup
 &lt; VALUE &gt;
 <blockquote>:indent
 <q>: "
-<abbr title="World Health Organization">WHO</abbr> : ... + title
+<abbr title="World Health Organization">WHO</abbr> : ... + title(character standard)
 <address>Written</address> : italic + line break -+
 <cite>The Scream</cite> : italic
 <bdo dir="rtl">This</bdo>: right to left: sihT

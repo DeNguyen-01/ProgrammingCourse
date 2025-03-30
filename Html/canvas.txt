@@ -59,3 +59,13 @@ Youtube
   <iframe width="420" height="315"
     src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
   </iframe>
+SSE: Server-Sent Events 
+  pushing messages/updates from server to web page via HTTP connection.
+  EventSource: receive SSE notification
+  var source = new EventSource("demo_sse.php");
+    source.onmessage = function(event) {
+      x.innerHTML += event.data + "<br>";
+    };
+  onopen	When a connection to the server is opened
+  onmessage	When a message is received
+  onerror	When an error occurs

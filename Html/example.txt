@@ -1,0 +1,29 @@
+a:visited(when start page)
+a:hover
+a:active(when click)
+text-decoration:none(remove underline)
+_top change all
+mailto:someone@example.com?cc=someoneelse@example.com&bcc=andsomeoneels
+collapsed border: border-collapse: collapse;
+
+table, th, td
+With ID
+  #t01 tr:nth-child(even)
+  #t01 tr:nth-child(odd)
+  #t01 th
+With Class
+table.names
+table.names tr:nth-child(even)
+table.names th
+UL: "."
+  <ul><ul>: ".",".white","[]"
+  ul#menu li {
+    display:inline;
+  }
+OL: "123"(i,I,a,A)
+Center: margin: auto;
+onclick="alert('Hello World!')"
+
+  border: 3px solid black;
+ iframe src(default pixel)
+ <var><main>

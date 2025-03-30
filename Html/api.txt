@@ -1,0 +1,63 @@
+  API stands for Application Programming Interface. 
+Geolocation: user current location(GPS) at HTTPS
+  navigator.geolocation
+  watchPosition: current update location
+  clearWatch: stop watchPosition
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(success, error);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+  function success(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude +
+    "<br>Longitude: " + position.coords.longitude;
+  }
+  function error() {
+    alert("Sorry, no position available.");
+  }
+Drag & Drop
+  <div id="div1" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)"></div>
+  <br>
+  <img id="img1" src="folder/ai.img.png" draggable="true" ondragstart="dragstartHandler(event)" width="336" height="69">
+    
+  <script>
+    function dragstartHandler(ev) {
+      ev.dataTransfer.setData("text", ev.target.id);
+    }
+    
+    function dragoverHandler(ev) {
+      ev.preventDefault();
+    }
+    
+    function dropHandler(ev) {
+      ev.preventDefault();
+      const data = ev.dataTransfer.getData("text");
+      ev.target.appendChild(document.getElementById(data));
+    }
+    </script>
+Web Storage better than cookies
+  storage limit is far larger(least 5M), per origin(per domain and protocol)
+    <button onclick="clickCounter()" type="button">Click me!</button>
+  * window.localStorage - stores data with no expiration date(tab is closed)
+    // Store
+      localStorage.setItem("lastname", "Smith");
+    // Retrieve
+      x.innerHTML = localStorage.getItem("lastname");
+    // Remove
+    localStorage.removeItem("lastname");
+  * window.sessionStorage - stores data for one session(lost when tab is closed)
+  sessionStorage.clickcount
+  + Check browser supported Web storage:
+     typeof(Storage) !== "undefined"
+Web Worker: run in background, without affect  performance of the web
+  in external .js files
+  Executing script, page unresponsive until script is finish
+  Check: typeof(Worker) !== "undefined"
+  If not exist: w = new Worker("demo_workers.js");
+  postMessage(i);// post message to HTML page
+  setTimeout("timedCount()",500);// loop
+  w.onmessage = function(event) {// respond to message
+    x.innerHTML = event.data;
+  };
+  w.terminate();// off
+  w = undefined;
