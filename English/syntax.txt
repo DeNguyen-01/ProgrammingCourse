@@ -1,0 +1,11 @@
+6D5CDB0F
+Visual code
+Alt + E/F/V
+Ctrl + H(Find replace)/N/O/P(Point option)/Z(Undo)quay lại/Y(Redo)đặt lại
+Shift + row
+Shift + Ctrl + row
+Ctrl + Shift + W
+Ctrl + N(open new window)
+Ctrl + Shift + N(open tab an danh)
+Ctrl + E(focus + search)
+Ctrl + Enter(www. + text + .com)
